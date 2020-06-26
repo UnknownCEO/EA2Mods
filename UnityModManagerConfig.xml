@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Repository>https://raw.githubusercontent.com/newman55/unity-mod-manager/master/Repository_beta_13.json</Repository>
+	<HomePage>https://www.nexusmods.com/site/mods/21/</HomePage>
+	<GameInfo Name="Oxygen Not Included">
+		<Folder>OxygenNotIncluded</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>OxygenNotIncluded.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp-firstpass.dll]App.Awake:After</StartingPoint>
+		<OldPatchTarget>[Assembly-CSharp-firstpass.dll]App.Awake:After</OldPatchTarget>
+		<GameVersionPoint>[Assembly-CSharp.dll]KleiVersion.ChangeList</GameVersionPoint>
+		<Comment>Required UMM 0.21.8 or less</Comment>
+		<MinimalManagerVersion>0.12.0</MinimalManagerVersion>
+	</GameInfo>
+	<GameInfo Name="Two Point Hospital">
+		<Folder>TPH</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>TPH.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]TH20.MainScript.Start:Before</StartingPoint>
+		<OldPatchTarget>[Assembly-CSharp.dll]TH20.MainScript.Start:Before</OldPatchTarget>
+		<MinimalManagerVersion>0.12.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.12.0 -->
+	<GameInfo Name="Pathfinder: Kingmaker">
+		<Folder>Pathfinder Kingmaker</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>Kingmaker.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Kingmaker.GameStarter.Awake:Before</StartingPoint>
+		<UIStartingPoint>[Assembly-CSharp.dll]Kingmaker.MainMenu.Start:After</UIStartingPoint>
+		<OldPatchTarget>[Assembly-CSharp.dll]Kingmaker.GameStarter.Awake:Before</OldPatchTarget>
+		<GameVersionPoint>[Assembly-CSharp.dll]Kingmaker.GameVersion.GetVersion</GameVersionPoint>
+		<MinimalManagerVersion>0.12.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.12.2 -->
+	<GameInfo Name="Car Mechanic Simulator 2018">
+		<Folder>Car Mechanic Simulator 2018</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>cms2018.exe</GameExe>
+		<EntryPoint>[Assembly-CSharp-firstpass.dll]MainMenuManager.Awake:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp-firstpass.dll]MainMenuManager.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.12.2</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.12.4 -->
+	<GameInfo Name="Garden Paws">
+		<Folder>Garden Paws</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<EntryPoint>[Assembly-CSharp.dll]GPLauncher.Awake:After</EntryPoint>
+		<Comment>Does not support game versions greater than 1.3.1</Comment>
+		<MinimalManagerVersion>0.12.4</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.12.5 -->
+	<GameInfo Name="Farm Together">
+		<Folder>Farm Together</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<EntryPoint>[Assembly-CSharp.dll]BaseGameInit.Awake:After</EntryPoint>
+		<MinimalManagerVersion>0.12.5</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.12.5 -->
+	<GameInfo Name="Skater XL">
+		<Folder>Skater XL</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<EntryPoint>[Assembly-CSharp.dll]TitleScreen.Start:After</EntryPoint>
+		<MinimalManagerVersion>0.12.5</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.12.6 -->
+	<GameInfo Name="My Time At Portia">
+		<Folder>Portia</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>Portia.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Ccc.CccModuleLoader.Start:After</StartingPoint>
+		<OldPatchTarget>[Assembly-CSharp.dll]Ccc.CccModuleLoader.Start:After</OldPatchTarget>
+		<GameVersionPoint>[Assembly-CSharp.dll]Pathea.Version.GetString</GameVersionPoint>
+		<MinimalManagerVersion>0.12.6</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.13.1 -->
+	<GameInfo Name="Dawn of Man">
+		<Folder>DawnOfMan</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>DawnOfMan.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]DawnOfMan.TitleStateMain.init:After</StartingPoint>
+		<MinimalManagerVersion>0.13.1</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.14.1 -->
+	<GameInfo Name="Derail Valley">
+		<Folder>Derail Valley</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>DerailValley.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Bootstrap.StartGame:After</StartingPoint>
+		<MinimalManagerVersion>0.14.1</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.15 -->
+	<GameInfo Name="Eastshade">
+		<Folder>Eastshade</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<!-- Doorstop causes crash -->
+		<!--<GameExe>Eastshade.exe</GameExe>-->
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]GameManager.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.15.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.18 -->
+	<GameInfo Name="Motorsport Manager">
+		<Folder>Motorsport Manager</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>MM.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]App.Awake:After</StartingPoint>
+		<UIStartingPoint>[Assembly-CSharp.dll]CreditsScreen.OnStart:After</UIStartingPoint>
+		<MinimalManagerVersion>0.18.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.18 -->
+	<GameInfo Name="Factory Town">
+		<Folder>Factory Town</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>Factory Town.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Platform.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.18.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.18 -->
+	<GameInfo Name="Ultimate Fishing Simulator">
+		<Folder>Ultimate Fishing Simulator</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>UltimateFishing*.exe</GameExe>
+		<EntryPoint>[UnityEngine.dll]UnityEngine.Canvas.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]MenuManager.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.18.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21 -->
+	<GameInfo Name="Monster Sanctuary">
+		<Folder>Monster Sanctuary</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>Monster Sanctuary.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]MainMenu.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.21.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21 -->
+	<GameInfo Name="Deep Sky Derelicts">
+		<Folder>Deep Sky Derelicts</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>Deep Sky Derelicts.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Derelicts.MainMenu.Awake:After</StartingPoint>
+		<GameVersionPoint>[Assembly-CSharp.dll]Derelicts.MainMenu.buildVersion</GameVersionPoint>
+		<MinimalManagerVersion>0.21.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21 -->
+	<GameInfo Name="Pine">
+		<Folder>Pine</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>pine.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]MainMenu.Awake:Before</StartingPoint>
+		<MinimalManagerVersion>0.21.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21 -->
+	<GameInfo Name="Freeman Guerrilla Warfare">
+		<Folder>Freeman Guerrilla Warfare</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>StartFGW.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]RM.Awake:Before</StartingPoint>
+		<MinimalManagerVersion>0.21.0</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.3 -->
+	<GameInfo Name="Starcom Nexus">
+		<Folder>Starcom Nexus</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>StarcomNexus.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]MainScreen.Start:Before</StartingPoint>
+		<MinimalManagerVersion>0.21.3</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.4 -->
+	<GameInfo Name="Metal Unit">
+		<Folder>Metal Unit</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>MetalUnit.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]TitleMenuController.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.21.4</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.4 -->
+	<GameInfo Name="Banner of the Maid">
+		<Folder>Banner of the Maid</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>banner.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Game.Client.UITitleMenu.Awake:Before</StartingPoint>
+		<MinimalManagerVersion>0.21.4</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.5 -->
+	<GameInfo Name="Plague Inc: Evolved">
+		<Folder>Plague Inc Evolved</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>PlagueIncEvolved.exe</GameExe>
+		<EntryPoint>[UnityEngine.dll]UnityEngine.Graphics.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]CMainMenuScreen.Initialise:After</StartingPoint>
+		<MinimalManagerVersion>0.21.5</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.5 -->
+	<GameInfo Name="Ultimate Admiral Age of Sea">
+		<Folder>Ultimate Admiral Age of Sea</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>build.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]UltimateAdmiral.UI.MainMenuController.Init:Before</StartingPoint>
+		<MinimalManagerVersion>0.21.5</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.7 -->
+	<GameInfo Name="ATOM RPG">
+		<Folder>ATOM RPG Post-apocalyptic indie game</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>AtomRPG_x64.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
+		<StartingPoint>[AtomGame.dll]MainMenu.Start:After</StartingPoint>
+		<MinimalManagerVersion>0.21.7</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.7 -->
+	<GameInfo Name="Green Hell">
+		<Folder>Green Hell</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>GH.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]GreenHellGame.Initialize:Before</StartingPoint>
+		<MinimalManagerVersion>0.21.7</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.8 -->
+	<GameInfo Name="Skul: The Hero Slayer">
+		<Folder>Skul</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>Skul.exe</GameExe>
+		<EntryPoint>[Assembly-CSharp.dll]Scenes.Main.Awake:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Scenes.Main.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.21.8</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.21.8 -->
+	<GameInfo Name="The Escapists 2">
+		<Folder>The Escapists 2</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>TheEscapists2.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.EventSystems.EventSystem.cctor:After</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]MainFrontendMenu.Show:After</StartingPoint>
+		<MinimalManagerVersion>0.21.8</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.22.3 -->
+	<GameInfo Name="Pillars of Eternity II: Deadfire">
+		<Folder>Pillars of Eternity II Deadfire</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>PillarsOfEternityII.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Game.GameState.Awake:After</StartingPoint>
+		<UIStartingPoint>[Assembly-CSharp.dll]Game.UI.UIMainMenuManager.OnyxStart:After</UIStartingPoint>
+		<MinimalManagerVersion>0.22.3</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.22.4 -->
+	<GameInfo Name="Tyranny">
+		<Folder>Tyranny</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>Tyranny.exe</GameExe>
+		<EntryPoint>[UnityEngine.UI.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]Game.GameState.Awake:After</StartingPoint>
+		<MinimalManagerVersion>0.22.4</MinimalManagerVersion>
+	</GameInfo>
+	<!-- 0.22.5 -->
+	<GameInfo Name="People Playground">
+		<Folder>People Playground</Folder>
+		<ModsDirectory>Mods</ModsDirectory>
+		<ModInfo>Info.json</ModInfo>
+		<GameExe>People Playground.exe</GameExe>
+		<EntryPoint>[UnityEngine.UIModule.dll]UnityEngine.Canvas.cctor:Before</EntryPoint>
+		<StartingPoint>[Assembly-CSharp.dll]MenuController.Awake:Before</StartingPoint>
+		<UIStartingPoint>[Assembly-CSharp.dll]MenuController.Awake:After</UIStartingPoint>
+		<MinimalManagerVersion>0.22.5</MinimalManagerVersion>
+	</GameInfo>
+</Config>
