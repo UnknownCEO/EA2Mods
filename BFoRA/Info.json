@@ -1,0 +1,6 @@
+{
+    "Id": "BFoRA",
+    "DisplayName": "Bridge Forcefields on Red Alert",
+    "Version": "1.0.0",
+    "EntryMethod": "BFoRA.Main.Load"
+  }
