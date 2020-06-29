@@ -8,12 +8,23 @@ Note that Executive Assault 2 does NOT have official mod support. As a result, m
 
 ## Available Mods
 
-Here is a list of the mods I have created:
+Here is a list of the mods I have created so far:
 
-##### Bridge Forcefields on Red Alert (BFoRA)
+#### Bridge Forcefields on Red Alert (BFoRA)
 When BFoRA is active, your bridge forcefields will automatically be turned on when red alert is activated on your space station. The forcefields will remain on until you manually turn them off or the generators are destroyed.
 
 [Download here](https://github.com/UnknownCEO/EA2Mods/files/4837838/BFoRA.zip)
+
+[Source code](https://github.com/UnknownCEO/BFoRA)
+
+_Not yet tested in multiplayer_
+
+#### Time Warp
+Time Warp allows you to speed up and slow down the game. Use the mod manager menu to set the desired game speed multiplier. For example, setting the multiplier to 2 will make the game run 2x faster. Setting the multiplier to 0.5 will make the game run at half speed.
+
+[Download here](https://github.com/UnknownCEO/TimeWarp/files/4848060/TimeWarp.zip)
+
+[Source code](https://github.com/UnknownCEO/TimeWarp)
 
 _Not yet tested in multiplayer_
 

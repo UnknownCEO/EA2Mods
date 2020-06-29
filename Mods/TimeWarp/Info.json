@@ -1,0 +1,6 @@
+{
+    "Id": "TimeWarp",
+    "DisplayName": "Time Warp",
+    "Version": "1.0.0",
+    "EntryMethod": "TimeWarp.Main.Load"
+  }
