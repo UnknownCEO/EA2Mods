@@ -33,9 +33,9 @@ _Not yet tested in multiplayer_
 ## Installing Unity Mod Manager
 Mods are installed using [Unity Mod Manager](https://www.nexusmods.com/site/mods/21). To install Unity Mod Manager,
 
-* Download Unity Mod Manager from the [Files tab](https://www.nexusmods.com/site/mods/21?tab=files) at the above link or use the [Dropbox mirror](https://www.dropbox.com/s/wz8x8e4onjdfdbm/UnityModManager.zip?dl=1) they provide if you don't want to download from NexusMods.
+* Download Unity Mod Manager from the [Files tab](https://www.nexusmods.com/site/mods/21?tab=files) at the above link or use the mirror they provide if you don't want to download from NexusMods.
 * Unzip the downloaded zip file. 
-* Download the custom mod manager config (go [here](https://raw.githubusercontent.com/UnknownCEO/EA2Mods/master/UnityModManagerConfig.xml), right click the page and choose "Save as" or whatever similar option you have) and replace the original `UnityModManagerConfig.xml` with the one you just downloaded.
+* ~~Download the custom mod manager config (go [here](https://raw.githubusercontent.com/UnknownCEO/EA2Mods/master/UnityModManagerConfig.xml), right click the page and choose "Save as" or whatever similar option you have) and replace the original `UnityModManagerConfig.xml` with the one you just downloaded.~~ The mod manager has been updated and this step should no longer be necessary.
 * Launch `UnityModManager.exe`.
 * Select Executive Assault 2 from the dropdown "Game" selector.
 * The mod manager should automatically detect your game folder. If it doesn't, the game folder can usually be found at `C:\Program Files\Steam\steamapps\common\Executive Assault 2` or somewhere similar.
