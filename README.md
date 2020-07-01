@@ -13,11 +13,11 @@ Here is a list of the mods I have created so far:
 #### Bridge Forcefields on Red Alert (BFoRA)
 When BFoRA is active, your bridge forcefields will automatically be turned on when red alert is activated on your space station. The forcefields will remain on until you manually turn them off or the generators are destroyed.
 
-[Download here](https://github.com/UnknownCEO/EA2Mods/files/4837838/BFoRA.zip)
+[Download here](https://github.com/UnknownCEO/BFoRA/files/4861195/BFoRA.zip)
 
 [Source code](https://github.com/UnknownCEO/BFoRA)
 
-_Currently does work in multiplayer. Will hopefully be fixed soon._
+_Should now work in multiplayer!_
 
 #### Time Warp
 Time Warp allows you to speed up and slow down the game. Use the mod manager menu to set the desired game speed multiplier. For example, setting the multiplier to 2 will make the game run 2x faster. Setting the multiplier to 0.5 will make the game run at half speed.
