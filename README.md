@@ -17,7 +17,7 @@ When BFoRA is active, your bridge forcefields will automatically be turned on wh
 
 [Source code](https://github.com/UnknownCEO/BFoRA)
 
-_Not yet tested in multiplayer_
+_Currently does work in multiplayer. Will hopefully be fixed soon._
 
 #### Time Warp
 Time Warp allows you to speed up and slow down the game. Use the mod manager menu to set the desired game speed multiplier. For example, setting the multiplier to 2 will make the game run 2x faster. Setting the multiplier to 0.5 will make the game run at half speed.
@@ -26,7 +26,7 @@ Time Warp allows you to speed up and slow down the game. Use the mod manager men
 
 [Source code](https://github.com/UnknownCEO/TimeWarp)
 
-_Not yet tested in multiplayer_
+_In multiplayer, only works for the player using the mod. May be fixed in the future._
 
 ---
 
