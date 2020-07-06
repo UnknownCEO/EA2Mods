@@ -26,7 +26,16 @@ Time Warp allows you to speed up and slow down the game. Use the mod manager men
 
 [Source code](https://github.com/UnknownCEO/TimeWarp)
 
-_Should work in multiplayer with other players who have the mod installed and enabled._
+_Works in multiplayer with other players who have the mod installed and enabled._
+
+#### Unit Cap Editor
+The Unit Cap Editor mod allows you to change the ship and robot caps. Currently, the changes are applied to all players.
+
+[Download here](https://github.com/UnknownCEO/UnitCapEditor/files/4880524/UnitCapEditor.zip)
+
+[Source code](https://github.com/UnknownCEO/UnitCapEditor)
+
+_Works in multiplayer with other players who have the mod installed and enabled._
 
 ---
 

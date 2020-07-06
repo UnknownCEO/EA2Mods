@@ -1,0 +1,6 @@
+{
+    "Id": "UnitCapEditor",
+    "DisplayName": "Unit Cap Editor",
+    "Version": "1.0.0",
+    "EntryMethod": "UnitCapEditor.Main.Load"
+  }
