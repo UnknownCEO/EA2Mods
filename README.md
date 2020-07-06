@@ -31,7 +31,7 @@ _Works in multiplayer with other players who have the mod installed and enabled.
 #### Unit Cap Editor
 The Unit Cap Editor mod allows you to change the ship and robot caps. Currently, the changes are applied to all players.
 
-[Download here](https://github.com/UnknownCEO/UnitCapEditor/files/4880524/UnitCapEditor.zip)
+[Download here](https://github.com/UnknownCEO/UnitCapEditor/files/4880592/UnitCapEditor.zip)
 
 [Source code](https://github.com/UnknownCEO/UnitCapEditor)
 
